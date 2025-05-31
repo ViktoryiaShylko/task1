@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    text-align: center;
+    width: 200px;
+    margin: 0 5px;
+    background-color: #DCDCDC;
+  }
+
+  .highlighted {
+    transform: scale(1.1);
+  }
+    /* Базовый тариф */
+  .basicCard {
+  }
+  .basicName {
+    background-color: rgba(32, 143, 191, 0.8);
+  }
+  .basicPrice {
+    background-color: rgba(33, 165, 222, 0.8);
+  }
+  
+  /* Стандартный тариф */
+  .standardCard {
+  }
+  .standardName {
+    background-color: rgba(58, 183, 101, 0.8);
+  }
+  .standardPrice {
+    background-color: rgba(65, 210, 115, 0.8);
+  }
+  
+  /* Премиум тариф */
+  .premiumCard {
+  }
+  .premiumName {
+    background-color: rgba(190, 62, 22, 0.8);
+  }
+  .premiumPrice {
+    background-color: rgba(214, 70, 25, 0.8);
+  }
+  
+  /* Бизнес тариф */
+  .businessCard {
+  }
+  .businessName {
+    background-color: rgba(18, 18, 18, 0.8);
+  }
+  .businessPrice {
+    background-color: rgba(30, 30, 30, 0.8);
+  }
+
+
+  
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .speed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #696969;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #696969;
+    background-color:#D3D3D3;
+    font-size: 0.8rem;
+  }
