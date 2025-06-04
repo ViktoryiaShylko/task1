@@ -1,11 +1,12 @@
 import styles from "./TariffCard.module.css";
 
-function TariffCard({ tariff, customStyles }) {
+function TariffCard({ tariff, customStyles, isSelected, onSelect }) {
   return (
     <div
-      className={`${styles.card} ${
-        tariff.isHighlighted ? styles.highlighted : ""
-      } ${styles[customStyles.card]}`}
+      className={`${styles.card} ${styles[customStyles.card]} ${
+        isSelected ? styles.selected : ""
+      }`}
+      onClick={() => onSelect(tariff.id)}
     >
       <p className={`${styles.name} ${styles[customStyles.name]}`}>
         {tariff.name}

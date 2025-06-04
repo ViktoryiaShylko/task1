@@ -4,32 +4,28 @@ const tariffs = [
         "name": "Безлимитный 300",
         "price": 300,
         "speed": 10,
-        "description": "Объем включенного трафика не ограничен",
-        "isHighlighted": false
+        "description": "Объем включенного трафика не ограничен"
     },
     {
         "id":2,
         "name": "Безлимитный 450",
         "price": 450,
         "speed": 50,
-        "description": "Объем включенного трафика не ограничен",
-        "isHighlighted": false
+        "description": "Объем включенного трафика не ограничен"
     },
     {
         "id":3,
         "name": "Безлимитный 550",
         "price": 550,
         "speed": 100,
-        "description": "Объем включенного трафика не ограничен",
-        "isHighlighted": true
+        "description": "Объем включенного трафика не ограничен"
     },
     {
         "id":4,
         "name": "Безлимитный 1000",
         "price": 1000,
         "speed": 200,
-        "description": "Объем включенного трафика не ограничен",
-        "isHighlighted": false
+        "description": "Объем включенного трафика не ограничен"
     }
 ];
 
